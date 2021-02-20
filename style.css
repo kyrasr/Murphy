@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    font-size: 1.5em;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+.general{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+div{
+    position: absolute;
+    width: 35%;
+    height: 28%;
+}
+.verde{
+    left: 32.5%;
+    top: 46%;
+    background-color: rgb(65, 253, 112);
+    border: rgb(22, 109, 41) solid 5px;
+    z-index: 2;
+}
+.uno{
+    background-color: rgb(236, 187, 96);
+    border: solid black 3px;
+    width: 85%;
+    text-align: center;
+    height: 45%;
+}
+.amarillo{
+    top: 27%;
+    left: 5%;
+    border: solid 5px rgb(222, 235, 49);
+    background-color: rgb(255, 229, 82);
+    z-index: 1;
+}
+.azul{
+    position: fixed;
+    top: 27%;
+    right: 5%;
+    background-color: rgb(113, 232, 253);
+    border: rgb(14, 147, 255) solid 5px;
+    z-index: 1;
+}
+.lila{
+    bottom: 5%;
+    left: 5%;
+    background-color: rgb(237, 200, 252);
+    border: rgb(176, 123, 247) solid 5px;
+    z-index: 1;
+}
+.rojo{
+    right: 5%;
+    bottom: 5%;
+    background-color: rgb(241, 130, 111);
+    border: rgb(247, 50, 36) solid 5px;
+    z-index: 1;
+}
+.amarillo:hover{
+    z-index: 3;    
+}
+.azul:hover{
+    z-index: 3;
+}
+.lila:hover{
+    z-index: 2;
+}
+.rojo:hover{
+    z-index: 2;
+}
